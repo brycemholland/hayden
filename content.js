@@ -2,7 +2,16 @@
 
   $(document).ready(function(){
 
+
+
+
+
+// =========== THIS IS WHERE YOU CHANGE YOUR PORTFOLIO DATA =======================================================
+
+
     
+
+
     var projects = [
       {
         name: 'verano',
@@ -50,6 +59,16 @@
         ]
       }
     ];
+
+
+
+
+
+// =========== THIS MAKES THE DATA WORK =======================================================
+
+
+
+
 
     var $resumeLink = $('#resume-link');
     var $gallery = $('#gallery');
