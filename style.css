@@ -25,6 +25,9 @@ html, body{
 	margin: 24px;
 	width: 150px;
 }
+.logo:hover{
+	background-image: url('img/logo-gif.gif');
+}
 .menu{
 	list-style: none;
 	padding: 24px;
