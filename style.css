@@ -95,9 +95,17 @@ html, body{
 .header{
 	color: #616161;
 	font-weight: 500;
+	overflow: hidden;
+	padding: 2px 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .subtext{
 	font-size: 12px;
+	overflow: hidden;
+	padding: 2px 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 
