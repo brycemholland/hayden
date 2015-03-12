@@ -3,9 +3,10 @@
 	<title>Hayden's Site</title>
 	<link rel="stylesheet" href="style.css">
 
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="jquery-2.1.3.min.js"></script>
+	<script src="add-content.js"></script>
 	<script src="script.js"></script>
 </head>
 <body>
@@ -15,11 +16,7 @@
 		<div class="logo"></div>
 		<div class="menu">
 			<div class="menu-item header" data-name="gallery">Gallery</div>
-			<div class="menu-item" data-name="verano">VERANO Zine</div>
-			<div class="menu-item" data-name="lauren">Lauren Vanderwerken Photography</div>
-			<div class="menu-item" data-name="play">Play with Type</div>
-			<div class="menu-item" data-name="lana">Lana Del Rey</div>
-			<div class="menu-item header" data-name="resume">Resum&eacute</div>
+			<div id="resume-link" class="menu-item header" data-name="resume">Resum&eacute</div>
 			<div class="menu-item header" data-name="about">About Me</div>
 		</div>
 	</div>
@@ -27,66 +24,6 @@
 
 		<div id="gallery" class="content">
 
-			<div class="thumbnail-container" data-name="verano">
-				<div class="thumb-image" style="background-image: url('https://m1.behance.net/rendition/modules/132088687/hd/3c0fb06ed5d4088b449923574c59fb68.jpg');"></div>
-				<div class="thumb-info">
-					<div class="header">Title of Project</div>
-					<div class="subtext">tags and sub info</div>
-				</div>
-			</div>
-			<div class="thumbnail-container" data-name="lauren">
-				<div class="thumb-image" style="background-image: url('https://m1.behance.net/rendition/modules/155407649/hd/4f72197d2044266f5ba30b8d4b2b8f57.jpg');"></div>
-				<div class="thumb-info">
-					<div class="header">Title of Project</div>
-					<div class="subtext">tags and sub info</div>
-				</div>
-			</div>
-			<div class="thumbnail-container" data-name="play">
-				<div class="thumb-image" style="background-image: url('https://m1.behance.net/rendition/modules/153804281/hd/1d22478691c84b3d16d6d26f1cd027ea.jpg');"></div>
-				<div class="thumb-info">
-					<div class="header">Title of Project</div>
-					<div class="subtext">tags and sub info</div>
-				</div>
-			</div>
-			<div class="thumbnail-container" data-name="lana">
-				<div class="thumb-image" style="background-image: url('https://m1.behance.net/rendition/modules/39297647/hd/b8a74a5ecbebc9e7a08774dc3e2ff5ad.jpg');"></div>
-				<div class="thumb-info">
-					<div class="header">Title of Project</div>
-					<div class="subtext">tags and sub info</div>
-				</div>
-			</div>
-			<div class="thumbnail-container" data-name="">
-				<img class="thumb-image" style="background-image: url('');"></img>
-				<div class="thumb-info">
-					<div class="header">Title of Project</div>
-					<div class="subtext">tags and sub info</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="verano" class="content project">
-			<img src="https://m1.behance.net/rendition/modules/132088671/hd/34220e74664442b0eca00f46e225934d.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088673/hd/c5f384f0bb1a099b0957e30ba85c1928.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088683/hd/6ab5abf6a7835006a16c5de2ad3c10a3.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088677/hd/b13eceb55122343291892ff58f5c9418.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088685/hd/6a29a12167f50cd907c48f046d4839a3.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088681/hd/a19ca484d76fff4c9589c7bc14ed475c.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088679/hd/b6f9eba6a9b4d42f0093746d3c7af6bc.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088675/hd/15c803ef67d302e2333d0c6117efffac.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088687/hd/3c0fb06ed5d4088b449923574c59fb68.jpg" class="project-image"></img>
-			<img src="https://m1.behance.net/rendition/modules/132088669/hd/2e9ee0c5f676c56990bece1202d4c2a4.jpg" class="project-image"></img>
-		</div>
-
-		<div id="lauren" class="content project">
-			<img src="https://m1.behance.net/rendition/modules/155407649/hd/4f72197d2044266f5ba30b8d4b2b8f57.jpg" class="project-image"></img>
-		</div>
-
-		<div id="play" class="content project">
-			<img src="https://m1.behance.net/rendition/modules/153804281/hd/1d22478691c84b3d16d6d26f1cd027ea.jpg" class="project-image"></img>
-		</div>
-		
-		<div id="lana" class="content project">
-			<img src="https://m1.behance.net/rendition/modules/39297647/hd/b8a74a5ecbebc9e7a08774dc3e2ff5ad.jpg" class="project-image"></img>
 		</div>
 		
 	</div>
